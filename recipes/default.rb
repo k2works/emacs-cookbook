@@ -6,6 +6,8 @@
 #
 # All rights reserved - Do Not Redistribute
 #
+include_recipe 'emacs24'
+
 directory "/home/vagrant/.emacs.d" do
   owner  "vagrant"
   group  "vagrant"
